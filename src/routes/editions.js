@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getEdition } from '../services/firebase.js';
+import { getEdition } from '../services/apiEditions.js';
 
 const router = Router();
 
