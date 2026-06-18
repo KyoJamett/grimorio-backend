@@ -127,9 +127,9 @@ const formatos = {
     ediciones: [
       { ed: "el-reto", edImg: "el_reto" },
       { ed: "mundo-gotico", edImg: "mundo-gotico" },
-      { ed: "ira-del-nahual", edImg: "la-ira-del-nahual" },
+      { ed: "ira-del-nahual", edImg: "ira-del-nahual" },
       { ed: "ragnarok", edImg: "ragnarok" },
-      { ed: "cofradia", edImg: "la-cofradia" },
+      { ed: "cofradia", edImg: "cofradia" },
       { ed: "espiritu-del-dragon", edImg: "espiritu-del-dragon" },
     ],
     folder: "pe",
