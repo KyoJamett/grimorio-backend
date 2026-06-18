@@ -7,17 +7,17 @@ const formatos = {
     details:
       "El formato posee un ritmo de batalla bastante ameno, con turnos relativamente tranquilos y una base de anulaciones acotada. Recomendado para jugadores novatos.",
     ediciones: [
-      { ed: "furia", edImg: "https://api.myl.cl/static/furia.png" },
+      { ed: "furia", edImg: "furia" },
       {
         ed: "furia-extension",
-        edImg: "https://api.myl.cl/static/furiaext.png",
+        edImg: "furiaext",
       },
-      { ed: "sumeria", edImg: "https://api.myl.cl/static/sumeria.png" },
-      { ed: "rebelion", edImg: "https://api.myl.cl/static/rebelion.png" },
-      { ed: "asgard", edImg: "https://api.myl.cl/static/asgard.png" },
-      { ed: "midgard", edImg: "https://api.myl.cl/static/midgard.png" },
-      /*{ ed: "camelot", edImg: "camelot.png" },
-      { ed: "templarios", edImg: "templarios.png" },*/
+      { ed: "sumeria", edImg: "sumeria" },
+      { ed: "rebelion", edImg: "rebelion" },
+      { ed: "asgard", edImg: "asgard" },
+      { ed: "midgard", edImg: "midgard" },
+      /*{ ed: "camelot", edImg: "camelot" },
+      { ed: "templarios", edImg: "templarios" },*/
     ],
     folder: "furia",
   },
@@ -31,33 +31,33 @@ const formatos = {
       "El formato al ser actualmente sólo de comunidad, ha sido sometido a cambios, siendo el más aceptado por las comunidades la inclusión de las ediciones Bushido y Sol Naciente, a fin de dar algo de soporte extra a ciertas razas débiles. Adicionalmente se creó una edición recopilatoria también llamada Escuelas Elementales.",
 
     ediciones: [
-      { ed: "bushido", edImg: "https://api.myl.cl/static/bushido.png" },
+      { ed: "bushido", edImg: "bushido" },
       {
         ed: "sol-naciente",
-        edImg: "https://api.myl.cl/static/sol_naciente.png",
+        edImg: "sol_naciente",
       },
-      { ed: "dominio", edImg: "https://api.myl.cl/static/dominio.png" },
+      { ed: "dominio", edImg: "dominio" },
       {
         ed: "contraataque",
-        edImg: "https://api.myl.cl/static/contraataque.png",
+        edImg: "contraataque",
       },
       {
         ed: "aguila-imperial",
-        edImg: "https://api.myl.cl/static/aguila_imperial.png",
+        edImg: "aguila_imperial",
       },
-      { ed: "steampunk", edImg: "https://api.myl.cl/static/steampunk.png" },
-      { ed: "axis-mundi", edImg: "https://api.myl.cl/static/axis-mundi.png" },
+      { ed: "steampunk", edImg: "steampunk" },
+      { ed: "axis-mundi", edImg: "axis-mundi" },
       {
         ed: "hijos-del-sol",
-        edImg: "https://api.myl.cl/static/hijos_del_sol.png",
+        edImg: "hijos_del_sol",
       },
       {
         ed: "legado-gotico",
-        edImg: "https://api.myl.cl/static/legado-gotico.png",
+        edImg: "legado-gotico",
       },
       {
         ed: "escuelas-elementales",
-        edImg: "https://api.myl.cl/static/escuelas_elementales.png",
+        edImg: "escuelas_elementales",
       },
     ],
     folder: "ee",
@@ -71,11 +71,11 @@ const formatos = {
     details:
       "En la línea de tiempo de nueva era, corresponden a las ediciones posteriores al formato Escuelas Elementales hasta la llegada de la edicion Kilimanjaro, donde aumentó considerablemente la escala de poder de las cartas. Adicionalmente aquí se utilizan las cartas SP (llamadas set paralelo por la comunidad) que salieron en diversos productos durante el formato imperio de la época de estas ediciones. Dichas cartas se pueden hallar dentro de las ediciones del formato.",
     ediciones: [
-      { ed: "kemet", edImg: "https://api.myl.cl/static/kemet.png" },
-      { ed: "dharma", edImg: "https://api.myl.cl/static/dharma.png" },
-      { ed: "olimpia", edImg: "https://api.myl.cl/static/olimpia.png" },
-      { ed: "calavera", edImg: "https://api.myl.cl/static/calavera.png" },
-      { ed: "arsenal", edImg: "https://api.myl.cl/static/logo_arsenal.png" },
+      { ed: "kemet", edImg: "kemet" },
+      { ed: "dharma", edImg: "dharma" },
+      { ed: "olimpia", edImg: "olimpia" },
+      { ed: "calavera", edImg: "calavera" },
+      { ed: "arsenal", edImg: "logo_arsenal" },
     ],
     folder: "civi",
   },
@@ -89,30 +89,30 @@ const formatos = {
       "El formato posee un ritmo de juego, escala de poder y cantidad de habilidades por turno notoriamente más elevadas que en formatos previos.",
 
     ediciones: [
-      { ed: "kilimanjaro", edImg: "https://api.myl.cl/static/kilimanjaro.png" },
-      { ed: "arsenal", edImg: "https://api.myl.cl/static/logo_arsenal.png" },
+      { ed: "kilimanjaro", edImg: "kilimanjaro" },
+      { ed: "arsenal", edImg: "logo_arsenal" },
       {
         ed: "terrores-nocturnos",
-        edImg: "https://api.myl.cl/static/terrores_nocturnos.png",
+        edImg: "terrores_nocturnos",
       },
       {
         ed: "invasion-oscura",
-        edImg: "https://api.myl.cl/static/invasion_oscura.png",
+        edImg: "invasion_oscura",
       },
       {
         ed: "dinastia-del-dragon",
-        edImg: "https://api.myl.cl/static/dinastialogo.png",
+        edImg: "dinastialogo",
       },
-      { ed: "keltoi", edImg: "https://api.myl.cl/static/keltoi.png" },
+      { ed: "keltoi", edImg: "keltoi" },
       {
         ed: "cuentos-de-ultratumba",
-        edImg: "https://api.myl.cl/static/cuentos-de-ultratumba.png",
+        edImg: "cuentos-de-ultratumba",
       },
       {
         ed: "tierra-austral",
-        edImg: "https://api.myl.cl/static/tierra-austral.png",
+        edImg: "tierra-austral",
       },
-      { ed: "conjuros", edImg: "https://api.myl.cl/static/conjuros.png" },
+      { ed: "conjuros", edImg: "conjuros" },
     ],
     folder: "expe",
   },
@@ -125,7 +125,7 @@ const formatos = {
     details:
       "El formato abarca las ediciones desde El Reto hasta Espíritu de Dragon. Ediciones lanzadas entre junio del año 2000 hasta julio del año 2002.",
     ediciones: [
-      { ed: "el-reto", edImg: "https://api.myl.cl/static/el_reto.png" },
+      { ed: "el-reto", edImg: "el_reto" },
       { ed: "mundo-gotico", edImg: "logos/mundo-gotico.png" },
       { ed: "ira-del-nahual", edImg: "logos/la-ira-del-nahual.png" },
       { ed: "ragnarok", edImg: "logos/ragnarok.png" },
@@ -145,24 +145,24 @@ const formatos = {
     ediciones: [
       {
         ed: "espada-sagrada",
-        edImg: "https://api.myl.cl/static/espada_sagrada.png",
+        edImg: "espada_sagrada",
       },
-      { ed: "cruzadas", edImg: "https://api.myl.cl/static/cruzadas.png" },
-      { ed: "helenica", edImg: "https://api.myl.cl/static/helenica.png" },
-      { ed: "imperio", edImg: "https://api.myl.cl/static/imperio.png" },
+      { ed: "cruzadas", edImg: "cruzadas" },
+      { ed: "helenica", edImg: "helenica" },
+      { ed: "imperio", edImg: "imperio" },
       {
         ed: "hijos-de-daana",
-        edImg: "https://api.myl.cl/static/hijos_de_daana.png",
+        edImg: "hijos_de_daana",
       },
       {
         ed: "tierras-altas",
-        edImg: "https://api.myl.cl/static/tierras_altas.png",
+        edImg: "tierras_altas",
       },
       {
         ed: "dominios-de-ra",
-        edImg: "https://api.myl.cl/static/dominios_de_ra.png",
+        edImg: "dominios_de_ra",
       },
-      { ed: "encrucijada", edImg: "https://api.myl.cl/static/encrucijada.png" },
+      { ed: "encrucijada", edImg: "encrucijada" },
     ],
     folder: "pb",
   },
