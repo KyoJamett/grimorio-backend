@@ -57,7 +57,7 @@ const formatos = {
       },
       {
         ed: "escuelas-elementales",
-        edImg: "escuelas_elementales",
+        edImg: "escuelas-elementales",
       },
     ],
     folder: "ee",
