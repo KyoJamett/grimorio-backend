@@ -193,6 +193,16 @@ const formatos = {
 // Definición de documentos agrupados en categorías
 const documentos = [
   {
+    categoria: "feudal",
+    documentos: [
+      {
+        id: "1",
+        name: "Feudal Banlist Julio 2026",
+        file: "feudal_banlist_julio_2026.pdf",
+      },
+    ],
+  },
+  {
     categoria: "ee",
     documentos: [
       {
