@@ -22,6 +22,28 @@ const formatos = {
     folder: "furia",
   },
 
+  feudal: {
+    name: "Bloque Feudal",
+    slug: "feudal",
+    intro: "Conformado por las ediciones desde Camelot hasta Contraataque, viene a ser el formato posterior al Bloque Furia en la línea de tiempo de nueva Era.",
+    details: "Formato creado por comunidad, sus ediciones incluyen mitología Artúrica, el Japón Feudal y el renacimiento.",
+    ediciones: [
+      {ed: "camelot", edImg: "camelot"},
+      {ed: "templarios", edImg: "templarios"},
+      { ed: "bushido", edImg: "bushido" },
+      {
+        ed: "sol-naciente",
+        edImg: "sol_naciente",
+      },
+      { ed: "dominio", edImg: "dominio" },
+      {
+        ed: "contraataque",
+        edImg: "contraataque",
+      },
+    ],
+    folder: "feudal"
+  },
+
   escuelas: {
     name: "Escuelas Elementales",
     slug: "escuelas-elementales",
