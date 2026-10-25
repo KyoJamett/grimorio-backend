@@ -139,6 +139,24 @@ const formatos = {
     folder: "expe",
   },
 
+  literario: {
+    name: "Literario",
+    slug: "literario",
+    intro:
+      "Formato comprendido por productos especiales enfocados en la literatura universal.",
+    details:
+      "Tiene como características el uso de las sinergias luz y oscuridad y el uso de una carta de personaje principal, muy similar al concepto de comandante en Magic the Gathering.",
+    ediciones: [
+      { ed: "steampunk", edImg: "steampunk" },
+      { ed: "ajedrez", edImg: "ajedrez" },
+      { ed: "tinta-inmortal-robin-hood", edImg: "tinta_inmortal" },
+      { ed: "tinta-inmortal-romeo-y-julieta", edImg: "tinta_inmortal" },
+      { ed: "hermanos-grimm-elsastrecillovaliente-y-musicosdebremen", edImg: "hermanos_grimm" },
+      { ed: "hermanos-grimm-elaguadelavida-y-johndeacero", edImg: "hermanos_grimm" },
+    ],
+    folder: "literario",
+  },
+
   pe: {
     name: "Primera Era",
     slug: "primera-era",
