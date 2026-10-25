@@ -257,6 +257,12 @@ const documentos = [
     ],
   },
   {
+    categoria: "literario",
+    documentos: [
+      { id: "1", name: "Formato Literario v1.1", file: "formato_literario_v1.1.pdf" },
+    ],
+  },
+  {
     categoria: "pb",
     documentos: [
       { id: "1", name: "Dar Abril 2005", file: "dar_abril_2005.pdf" },
